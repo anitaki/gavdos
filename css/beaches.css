@@ -1,0 +1,46 @@
+@import url(style.css);
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+picture > img {
+  width: 100vw;
+  margin: 2rem 0 0 0;
+}
+
+figcaption {
+  text-align: center;
+}
+
+section {
+  margin: 5rem 0 0 0;
+  background-color: rgba(3, 173, 220, 0.295);
+  padding: 3rem;
+}
+
+section li {
+  list-style: none;
+}
+
+section h2 {
+  text-align: left;
+}
+
+.div-beaches {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.div-beaches > img {
+  width: 50%;
+}
+
+.div-beaches > p {
+  width: 40%;
+}

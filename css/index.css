@@ -9,6 +9,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: rgba(253, 240, 222, 0.719);
 }
 
 h1 {

@@ -1,0 +1,56 @@
+@import url(style.css);
+
+body {
+  background-color: rgba(254, 200, 117, 0.2);
+}
+
+h2 {
+  margin: 5rem 0;
+}
+
+.sights-general {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 3rem 2rem;
+  padding: 3rem 2rem;
+  background-color: rgba(127, 197, 170, 0.603);
+}
+
+.sights-general > img {
+  width: 70%;
+  padding: 1rem;
+}
+
+.sights-general > p {
+  width: 30%;
+  padding: 1rem;
+}
+
+.sights {
+  margin: 0 0;
+  padding: 2rem 0;
+}
+
+.sights-div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin: 3rem 2rem;
+  padding: 4rem 0;
+  background-color: rgba(255, 180, 39, 0.7);
+  border-radius: 5px;
+}
+
+.sights-div img {
+  width: 40%;
+  margin: 0 1rem;
+}
+
+.sights-div-text {
+  width: 40%;
+}
+
+.sights-div-text h2 {
+  margin: 1rem 0;
+}
